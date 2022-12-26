@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "6394926280c88fb8d8c77aa7"
+  },
+  "name": "customer1",
+  "pass": "12345678",
+  "email": "customer1@gmail.com",
+  "status": "enable"
+},{
+  "_id": {
+    "$oid": "6394929680c88fb8d8c77aa8"
+  },
+  "name": "customer2",
+  "pass": "12345678",
+  "email": "customer2@gmail.com",
+  "status": "disable"
+},{
+  "_id": {
+    "$oid": "639492b080c88fb8d8c77aa9"
+  },
+  "name": "customer6",
+  "pass": "12345678",
+  "email": "customer6@gmail.com",
+  "status": "enable"
+},{
+  "_id": {
+    "$oid": "6394930380c88fb8d8c77aaa"
+  },
+  "name": "customer3",
+  "pass": "12345678",
+  "email": "customer3@gmail.com",
+  "status": "enable"
+},{
+  "_id": {
+    "$oid": "6394932480c88fb8d8c77aab"
+  },
+  "name": "customer4",
+  "pass": "12345678",
+  "email": "customer4@gmail.com",
+  "status": "enable"
+},{
+  "_id": {
+    "$oid": "6394933e80c88fb8d8c77aac"
+  },
+  "name": "customer5",
+  "pass": "12345678",
+  "email": "customer5@gmail.com",
+  "status": "enable"
+},{
+  "_id": {
+    "$oid": "6394ecf4cce518f67bde2f4a"
+  },
+  "name": "customer10",
+  "pass": "12345678",
+  "email": "customer10@gmail.com",
+  "status": "enable"
+},{
+  "_id": {
+    "$oid": "63972a40e06785d418b8a6a8"
+  },
+  "name": "aminul",
+  "pass": "Aminul515",
+  "email": "mdaminulislam0723@gmail.com",
+  "status": "enable"
+},{
+  "_id": {
+    "$oid": "63973c237e3201e1e00f5905"
+  },
+  "name": "nayeem710",
+  "pass": "nayeem710",
+  "email": "jannatulnayeem710@gmail.com",
+  "status": "enable"
+}]

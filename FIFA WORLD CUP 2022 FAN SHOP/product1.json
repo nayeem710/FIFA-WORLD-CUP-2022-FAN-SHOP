@@ -1,0 +1,218 @@
+[{
+  "_id": {
+    "$oid": "632ea1f3fda1717440bafb57"
+  },
+  "p_name": "Argentina_Home_Jersey",
+  "price": "800",
+  "unit": "115"
+},{
+  "_id": {
+    "$oid": "632ea27b450dd2ae0866c50d"
+  },
+  "p_name": "Argentina_Away_Jersey",
+  "price": "750",
+  "unit": "47"
+},{
+  "_id": {
+    "$oid": "632ea298380135ad0542eb92"
+  },
+  "p_name": "Brazil_Home_Jersey",
+  "price": "800",
+  "unit": "118"
+},{
+  "_id": {
+    "$oid": "632ea2a5745785a2c13aba2f"
+  },
+  "p_name": "Brazil_Away_Jersey",
+  "price": "750",
+  "unit": "49"
+},{
+  "_id": {
+    "$oid": "632ea2c7d499297a7d090b5d"
+  },
+  "p_name": "France_Home_Jersey",
+  "price": "750",
+  "unit": "120"
+},{
+  "_id": {
+    "$oid": "632ea2cf1c72a4745d97bad7"
+  },
+  "p_name": "France_Away_Jersey",
+  "price": "600",
+  "unit": "25"
+},{
+  "_id": {
+    "$oid": "632ea301cc9d9f1fa2a0ca4f"
+  },
+  "p_name": "Germany_Home_Jersey",
+  "price": "750",
+  "unit": "3"
+},{
+  "_id": {
+    "$oid": "632ea309e5e1804ffb4c3a9e"
+  },
+  "p_name": "Germany_Away_Jersey",
+  "price": "750",
+  "unit": "0"
+},{
+  "_id": {
+    "$oid": "632ea322162a8b0d7d8c3248"
+  },
+  "p_name": "Portugal_Home_Jersey",
+  "price": "750",
+  "unit": "120"
+},{
+  "_id": {
+    "$oid": "632ea329d8e4b060823eb2a2"
+  },
+  "p_name": "Portugal_Away_Jersey",
+  "price": "750",
+  "unit": "50"
+},{
+  "_id": {
+    "$oid": "632ea3417433ea8fd184de75"
+  },
+  "p_name": "Spain_Home_Jersey",
+  "price": "750",
+  "unit": "120"
+},{
+  "_id": {
+    "$oid": "632ea3478b66f327a5216a72"
+  },
+  "p_name": "Spain_Away_Jersey",
+  "price": "750",
+  "unit": "50"
+},{
+  "_id": {
+    "$oid": "632f67e8f6370612bd46e349"
+  },
+  "p_name": "Adidas_Black_Sports_Shoe",
+  "price": "1750",
+  "unit": "50"
+},{
+  "_id": {
+    "$oid": "632f681d94b7d804c396f90a"
+  },
+  "p_name": "Adidas_Blue_Sports_Shoe",
+  "price": "2200",
+  "unit": "58"
+},{
+  "_id": {
+    "$oid": "632f68abf83bf6603335d9f2"
+  },
+  "p_name": "Adidas_Gray_Sports_Shoe",
+  "price": "1900",
+  "unit": "59"
+},{
+  "_id": {
+    "$oid": "632f68bf60b65725ee112706"
+  },
+  "p_name": "Adidas_White_Sports_Shoe",
+  "price": "4900",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f692b3fc190f09a333870"
+  },
+  "p_name": "Nike_Black_Sports_Shoe",
+  "price": "4500",
+  "unit": "59"
+},{
+  "_id": {
+    "$oid": "632f695245e4280e9372d7f6"
+  },
+  "p_name": "Nike_Blue_Sports_Shoe",
+  "price": "2700",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f696d816b47bb5288bfc5"
+  },
+  "p_name": "Nike_Gray_Sports_Shoe",
+  "price": "3700",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f69bfb503ce5e36b0244a"
+  },
+  "p_name": "Puma_Black_Sports_Shoe",
+  "price": "3000",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f69d465acc0f5174f00d9"
+  },
+  "p_name": "Puma_Red_Sports_Shoe",
+  "price": "3700",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f69f01b718798a055e826"
+  },
+  "p_name": "Puma_White_Sports_Shoe",
+  "price": "3200",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f6a50f5ef9b529e34091d"
+  },
+  "p_name": "Salomon_Blue_Sports_Shoe",
+  "price": "7500",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f6a6422d273a692fcab48"
+  },
+  "p_name": "Salomon_Gray_Sports_Shoe",
+  "price": "6000",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f6ae71c5635a218e9fea1"
+  },
+  "p_name": "NewBalance_Gray_Sports_Shoe",
+  "price": "3800",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f6af90983420df53c6232"
+  },
+  "p_name": "NewBalance_White_Sports_Shoe",
+  "price": "3700",
+  "unit": "60"
+},{
+  "_id": {
+    "$oid": "632f72ae6f3509a1f5df065b"
+  },
+  "p_name": "Avaro_World_Cup_Football",
+  "price": "1100",
+  "unit": "15"
+},{
+  "_id": {
+    "$oid": "632f72c955e1788492d6e2e8"
+  },
+  "p_name": "FCB_Blue_World_Cup_Football",
+  "price": "1600",
+  "unit": "15"
+},{
+  "_id": {
+    "$oid": "632f72e1de9037b4b61c1596"
+  },
+  "p_name": "RS_World_Cup_Football",
+  "price": "120",
+  "unit": "15"
+},{
+  "_id": {
+    "$oid": "632f72fcdbd02a422a5c96df"
+  },
+  "p_name": "Speedshell_Blue_World_Cup_2022_Football",
+  "price": "650",
+  "unit": "15"
+},{
+  "_id": {
+    "$oid": "632f7319b4518289e5a7d42b"
+  },
+  "p_name": "Speedshell_Yellow_World_Cup_2022_Football",
+  "price": "600",
+  "unit": "15"
+}]

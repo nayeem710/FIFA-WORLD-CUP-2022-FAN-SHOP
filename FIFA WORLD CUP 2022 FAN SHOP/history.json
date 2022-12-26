@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "631e5d432207376bc0100647"
+  },
+  "c_name": "customer3",
+  "p_name": "p2",
+  "ac_no": "123567123567"
+},{
+  "_id": {
+    "$oid": "631e625ce7e06908ae7da28e"
+  },
+  "c_name": "customer3",
+  "p_name": "p2",
+  "ac_no": "23344553"
+},{
+  "_id": {
+    "$oid": "631ee446de6facbb1f053b93"
+  },
+  "c_name": "customer1",
+  "p_name": "p1",
+  "ac_no": "1234567890"
+}]

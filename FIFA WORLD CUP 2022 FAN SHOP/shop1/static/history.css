@@ -1,0 +1,32 @@
+ body{
+  font-family: arial;
+  background-color: powderblue;
+  background-position: center;
+ }
+.card{
+      background-color: #66ffcc;
+      width: 30%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px;
+      margin: 2%;
+      margin-left: 500px;
+     }
+
+ .des{
+   padding: 3px;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+
+  .button{
+   margin-top: 40px;
+   margin-bottom: 10px;
+   background-color: powderblue;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding:10px;
+ }

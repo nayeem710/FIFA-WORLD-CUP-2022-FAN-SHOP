@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+        table {
+            width: 80%;
+        }
+    </style>
+    <title>CART</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+
+<body style='background-color: powderblue;'>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/"><strong>HOME</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/shop"><strong><strong>SHOP</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/fixture"><strong><strong>FIXTURES</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/ticket"><strong><strong>TICKET</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  active" href="/cart"><strong>CART</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about_us"><strong><strong>EXPLORE US</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login"><strong><strong>Login</strong></strong></a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="/logout"><strong><strong>Logout</strong></strong></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div align="center">
+        {% if (row == 0) %}
+            <h2 style="color: #17C3B2">Cart Is Empty !!!</h2>
+        {% else %}
+        <table>
+            <tr> <td> </td> <td>Product</td> <td>Name</td><td>Price</td> <td>Select</td></tr>
+            {% for i in range (row) %}
+            <tr><td>{{i}}</td> <td><img src="{{ url_for('static', filename=pic[i])}}" alt="pic" style="height:120px; width:100px"></td>
+                <td>{{p_name[i]}}</td> <td>{{p_price[i]}}</td>
+                <td>
+                    <form method="POST" action="/cart">
+                        <input type="hidden" name="name" value={{p_name[i]}}>
+                        <input type="submit" value="Buy">
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        <form method="POST" action="/cart">
+            <input type="hidden" name="name" value="All">
+            <input type="submit" value="Buy All">
+        </form>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+        img {
+            width: 100%;
+        }
+        </style>
+    <title>FIXTURE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css')}}">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/"><strong>HOME</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/shop"><strong><strong>SHOP</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/fixture"><strong><strong>FIXTURES</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/ticket"><strong><strong>TICKET</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/cart"><strong>CART</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about_us"><strong><strong>EXPLORE US</strong></strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login"><strong><strong>Login</strong></strong></a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="/logout"><strong><strong>Logout</strong></strong></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <img src="{{ url_for('static', filename='image/fixture.png')}}" alt="pic">
+</body>

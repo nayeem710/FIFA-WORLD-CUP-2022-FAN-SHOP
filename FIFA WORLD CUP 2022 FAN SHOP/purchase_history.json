@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "631f5526945685e43fef6264"
+  },
+  "c_name": "customer2",
+  "p_name": "Samsung_Galaxy_S21_FE_5G",
+  "ac_no": "001100110011"
+},{
+  "_id": {
+    "$oid": "631f5953c5f22cb576fc2b55"
+  },
+  "c_name": "customer5",
+  "p_name": "Apple_iphone_12",
+  "ac_no": "111222333"
+},{
+  "_id": {
+    "$oid": "631f59f6a53cdd0188e5fe17"
+  },
+  "c_name": "customer1",
+  "p_name": "Samsung_Galaxy_S21_FE_5G",
+  "ac_no": "00009999"
+},{
+  "_id": {
+    "$oid": "631f658845c0ae40f1bc5fe8"
+  },
+  "c_name": "customer3",
+  "p_name": "Apple_iphone_12",
+  "ac_no": "4556785"
+},{
+  "_id": {
+    "$oid": "63208b38a24c69444cf4b4db"
+  },
+  "c_name": "customer4",
+  "p_name": "Apple_iPhone_13_Pro",
+  "ac_no": "123123123"
+}]
